@@ -8,8 +8,8 @@ from PIL import Image
 import telebot
 
 # Telegram Setup
-BOT_TOKEN = 'your_bot_token_here'
-CHAT_ID = 'your_chat_id_here'
+BOT_TOKEN = '7480019882:AAFpRKfsv_TZn2nKIqsFpN1VGCCtNwBjgmo'
+CHAT_ID = '5302763233'
 bot = telebot.TeleBot(BOT_TOKEN)
 
 def generate_password():
