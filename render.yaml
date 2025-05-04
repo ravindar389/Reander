@@ -1,0 +1,7 @@
+services:
+  - type: worker
+    name: btc-password-bot
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python bot.py"
+    autoDeploy: true
